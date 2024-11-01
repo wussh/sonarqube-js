@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/home/fit/playground/sonarqube/index.test.js">
+        <testCase name="sayHello should return greeting message for a given name" duration="4">
+            <failure message="Error: expect(received).toBe(expected) // Object.is equality"><![CDATA[Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "Helasdalo, SonarQube!"
+Received: "Hello, SonarQube!"
+    at Object.toBe (/home/fit/playground/sonarqube/index.test.js:7:24)
+    at Promise.then.completed (/home/fit/playground/sonarqube/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/fit/playground/sonarqube/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/fit/playground/sonarqube/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/fit/playground/sonarqube/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/fit/playground/sonarqube/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/fit/playground/sonarqube/node_modules/jest-runner/build/runTest.js:444:34)]]></failure>
+        </testCase>
+        <testCase name="sayHello should return greeting message for an empty name" duration="1">
+            <failure message="Error: expect(received).toBe(expected) // Object.is equality"><![CDATA[Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "Helasdalo, !"
+Received: "Hello, !"
+    at Object.toBe (/home/fit/playground/sonarqube/index.test.js:12:24)
+    at Promise.then.completed (/home/fit/playground/sonarqube/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/fit/playground/sonarqube/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/fit/playground/sonarqube/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/fit/playground/sonarqube/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/fit/playground/sonarqube/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/fit/playground/sonarqube/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/fit/playground/sonarqube/node_modules/jest-runner/build/runTest.js:444:34)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>

@@ -1,0 +1,40 @@
+{
+  "name": "sonarqube",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=lcov",
+    "lint": "eslint . --format json --output-file eslint-report.json",
+    "sonar": "sonar-scanner -DprojectKey=sonarqubedemo -Dsonar.host.url=http://host.docker.internal:9001 -Dsonar.login=sqp_9f37e7a2ff519f4887dce8060d767338ba54fa53"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "jest": "^29.7.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^4.2.5"
+  },
+  "dependencies": {
+    "sonar-project-properties": "^1.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  }
+}

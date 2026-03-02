@@ -12,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "eslint": "^8.57.1",
+    "eslint": "^10.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-define-config": "^2.1.0",
     "eslint-plugin-import": "^2.31.0",

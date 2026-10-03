@@ -20,7 +20,7 @@
     "eslint-plugin-promise": "^6.6.0",
     "jest": "^29.7.0",
     "jest-sonar-reporter": "^2.0.0",
-    "sonarqube-scanner": "^4.2.5"
+    "sonarqube-scanner": "^5.0.0"
   },
   "dependencies": {
     "sonar-project-properties": "^1.0.4"
